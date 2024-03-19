@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+table{
+	width:100%;
+	border:solid;
+	border-collapse:collapse;
+}
+table thead{
+	background:hsl(25 70% 50%);
+}
+table th{
+	text-align:left;
+}
+table tbody tr:first-child{
+	background:hsl(25 70% 70%);
+}
+table tbody tr:nth-of-type(2){
+	background:hsl(25 70% 90%);
+}
+table tbody tr:last-child{
+	background:hsl(25 0% 80%);
+}
+table tbody tr td{
+	text-align:right;
+}
+table tbody tr td:first-child{
+	text-align:left;
+}
+
+tr,td,th{
+	border:solid;
+}
